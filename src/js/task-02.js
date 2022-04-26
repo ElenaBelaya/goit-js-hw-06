@@ -12,7 +12,7 @@ const refs = {
 }
 const createEl = ingredients.map((ingredient) => {
  const element = document.createElement("li");
- console.log(element);
+ //console.log(element);
  element.textContent = ingredient; 
  element.classList.add("item");
  return element;
